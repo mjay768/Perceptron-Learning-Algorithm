@@ -10,8 +10,8 @@ class PLA(object):
 
     def __init__(self,epochs,alpha,inputs):
 
-        self.epochs = 100
-        self.alpha = 0.01
+        #self.epochs = 100
+        #self.alpha = 0.01
         self.weights = np.zeros(inputs + 1)
         print("Hi there!")
         self.train(self.data,self.labels)
